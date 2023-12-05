@@ -151,6 +151,10 @@ label{
         font-size: large;
 }
 
+section{
+    text-align: left;
+}
+
 .obrigado {
     color:rgba(9, 126, 114, 0.726);
    font-family: 'Abril Fatface', serif;
@@ -172,6 +176,7 @@ label{
 
 footer{
     background-color: rgb(26, 202, 185);
+    color: rgb(83, 80, 80);
     font-family:'Abril Fatface', serif ;
     font-size: small;
     margin-top: 2rem;
@@ -223,12 +228,30 @@ main p {
     
 }
 
+.Bvindo h2{
+    margin-left: 1rem;
+}
+
 .Bvindo p{
     font-family: 'Neuton', serif;
     font-size: x-large;
     text-align: left;
     margin-top: 0.5rem;
     margin-left: 0.5rem;
+}
+
+.obrigado{
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.obrigado h3{
+    margin-left: 1rem;
+}
+
+.obrigado p{
+    display: block;
+    text-align: left;
 }
 
 }
